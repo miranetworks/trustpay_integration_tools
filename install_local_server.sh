@@ -2,7 +2,7 @@ service apache2 stop
 
 sudo rm -R /var/www/html/*
 sudo cp -R /home/ubuntu/trustpay_developer_docs/current/* /var/www/html/
-sudo cp -R /home/ubuntu/trustpay_integration_tools/current/* /var/www/html/
+sudo cp -R /home/ubuntu/trustpay_integration_tools/current/* /var/www/html/web/
 
 mkdir /var/www/html/app/cache/
 mkdir /var/www/html/app/logs/
